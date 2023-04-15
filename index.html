@@ -1,64 +1,110 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <!-- META TAGS -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- TÍTULO DA PÁGINA -->
-        <title>Traveller</title>
-        <!-- FOLHAS DE ESTILO -->
-        <link rel="stylesheet" href="./src/css/reset.css">
-        <link rel="stylesheet" href="./src/css/style.css">
-        <!-- FONTES -->
-        <!-- [Gabriella, adiciona as fontes aqui, nesta linha.] -->
-    </head>
-    <body>
-        <header>
-            <p>ㅤ</p>
-            <nav>
-                <div class="logo">
-                    <h1><a href=""><img src="./src/imagens/icones/logo_traveller.png" alt="Logo"></a></h1>
+
+<head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TÍTULO DA PÁGINA -->
+    <title>Traveller</title>
+    <!-- FOLHAS DE ESTILO -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <!-- FONTES -->
+    <!-- Font Aesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- [Gabriella, adiciona as fontes aqui, nesta linha.] -->
+</head>
+
+<body>
+    <header>
+        <p>ㅤ</p>
+        <nav>
+            <div class="logo">
+                <h1><a href=""><img src="./src/imagens/icones/logo_traveller.png" alt="Logo"></a></h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="links_menu"><a href="">Hotéis</a></li>
+                    <li class="links_menu"><a href="">Hotéis</a></li>
+                    <li class="links_menu"><a href="">Hotéis</a></li>
+                    <li class="links_menu"><a href="">Hotéis</a></li>
+                    <li class="links_menu"><a href="">Hotéis</a></li>
+                    <li class="links_menu"><a href="">Hotéis</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <a href=""><img src="./src/imagens/icones/avatar_login.png" alt="Login"></a>
+                <a href="">Entre ou cadastre-se</a>
+            </div>
+        </nav>
+        <section class="caixa_reserva">
+            <h2>Hotéis</h2>
+            <div class="formulario">
+                <form action="">
+                    <label for="">Para onde vai?</label>
+                    <input type="text" placeholder="Buscar cidade">
+
+                    <label for="">Check in</label>
+                    <input type="date">
+
+                    <label for="">Checkout</label>
+                    <input type="date">
+
+                    <label for="">Passageiros</label>
+                    <input type="text" placeholder="1 quarto, 2 hóspides">
+
+                    <button>BUSCAR HOTÉIS</button>
+                </form>
+            </div>
+        </section>
+    </header>
+    <main>
+    </main>
+    <!-- inicio footer -->
+    <footer>
+        <div class="rodape">
+            <div class="rodape__conteudo">
+                <h1><i class="fa-solid fa-plane-departure">
+                    </i> Traveller</h1>
+                <p>Tudo o que você precisa sobre viagens em um só lugar.</p>
+                <div class="rodape__midias__sociais">
+                    <a class="rodape__midias__sociais__links" href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="rodape__midias__sociais__links" href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="rodape__midias__sociais__links" href="#"><i class="fa-brands fa-twitter"></i></a>
                 </div>
-                <div class="menu">
-                    <ul>
-                        <li class="links_menu"><a href="">Hotéis</a></li>
-                        <li class="links_menu"><a href="">Hotéis</a></li>
-                        <li class="links_menu"><a href="">Hotéis</a></li>
-                        <li class="links_menu"><a href="">Hotéis</a></li>
-                        <li class="links_menu"><a href="">Hotéis</a></li>
-                        <li class="links_menu"><a href="">Hotéis</a></li>
-                    </ul>
-                </div>
-                <div class="login">
-                    <a href=""><img src="./src/imagens/icones/avatar_login.png" alt="Login"></a>
-                    <a href="">Entre ou cadastre-se</a>
-                </div>
-            </nav>
-                <section class="caixa_reserva">
-                    <h2>Hotéis</h2>
-                    <div class="formulario">
-                        <form action="">
-                            <label for="">Para onde vai?</label>
-                            <input type="text" placeholder="Buscar cidade">
+            </div>
+            <div class="rodape__lista">
+                <h3 class="rodape__titulo">Traveller</h3>
+                <ul class="rodape__lista">
+                    <li class="rodape__lista__item"><a href="#">Sobre a Traveller</a></li>
+                    <li class="rodape__lista__item"><a href="#">Trabalhe Conosco</a></li>
+                    <li class="rodape__lista__item"><a href="#">Imprensa</a></li>
+                </ul>
+            </div>
+            <div class="rodape__lista">
+                <h3 class="rodape__titulo">Centrais de Atendimento</h3>
+                <ul class="rodape__lista">
+                    <li class="rodape__lista__item"><a href="#">Sobre a Traveller</a></li>
+                    <li class="rodape__lista__item"><a href="#">Central de Ajuda</a></li>
+                    <li class="rodape__lista__item"><a href="#">Informações COVID-19</a></li>
+                </ul>
+            </div>
+            <div class="rodape__lista">
+                <h3 class="rodape__titulo">Termos</h3>
+                <ul class="rodape__lista">
+                    <li class="rodape__lista__item"><a href="#">Termos e Condições de uso do site</a></li>
+                    <li class="rodape__lista__item"><a href="#">Condições Gerais</a></li>
+                    <li class="rodape__lista__item"><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </div>
+        </div>
 
-                            <label for="">Check in</label>
-                            <input type="date">
+        <div class="rodape__copyright">
+            &copy; 2023 Traveller<sup>&reg;</sup>. Todos os Direitos reservados.
+        </div>
+    </footer>
+    <!-- fim foolter -->
+</body>
 
-                            <label for="">Checkout</label>
-                            <input type="date">
-
-                            <label for="">Passageiros</label>
-                            <input type="text" placeholder="1 quarto, 2 hóspides">
-
-                            <button>BUSCAR HOTÉIS</button>
-                        </form>
-                    </div>
-                </section>
-        </header>
-        <main>
-        </main>
-        <footer>
-            &copy; Traveller. Todos os Direitos reservados.
-        </footer>
-    </body>
 </html>
