@@ -3,7 +3,7 @@
 }
 
 header {
-    background-image: url(../imagens/banners/imagem_de_fundo_menu.jpg);
+    background-image: url(../imagens/banners/background-1.jpg);
     height: 1080px;
     /* width: auto; */
     background-repeat: no-repeat;
@@ -15,6 +15,7 @@ nav { position: fixed;
     justify-content: space-between;
     padding: 20px 40px;
     background-color: rgba(24, 23, 23, 0.5);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo img {
@@ -52,8 +53,8 @@ nav { position: fixed;
 }
 
 .caixa_reserva {
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
     width: 1321px;
     height: 300px;
     background-color: rgba(24, 23, 23, 0.5);
@@ -85,10 +86,11 @@ nav { position: fixed;
 }
 
 .formulario button {
+    color: #fff;
     height: 50px;
     border-radius: 10px;
-    background-color: #F2CED8;
-    font-family: 'Roboto', sans-serif;
+    background-color: #D9843B;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 900;
     font-size: 18px;
     margin-left: 10px;
@@ -104,10 +106,10 @@ nav { position: fixed;
 
 /* inicio style footer */
 footer {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     width: 100%;
-    background-color: #000;
+    background-color: #8C4D16;
     color: #fff;
     letter-spacing: 1px;
 }
@@ -154,7 +156,7 @@ footer {
 
 .rodape__lista a {
     text-decoration: none;
-    color: #6c6363;
+    color: #060D0B;
 }
 
 .rodape__lista__item:hover {
@@ -164,7 +166,7 @@ footer {
 
 .rodape__copyright {
     padding: 24px 0 50px;
-    background-color: #3D3044;
+    background-color: #D9C0A3;
     width: 100%;
     height: 60px;
     text-align: center;
