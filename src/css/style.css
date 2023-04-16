@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+/* Define as cores da paleta */
+:root {
+    --creme: #05d5ff;
+    --vermelho: #161616;
+    --marrom: #f9f9f1;
+    }
+
+
 header {
     background-image: url(../imagens/banners/background-1.jpg);
     height: 1080px;
@@ -100,6 +108,71 @@ nav { position: fixed;
     scale: 1.1;
     background-color: #5C4C73;
 }
+
+/* Define o estilo para a seção de destinos GUS  */
+.destinos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+    background-color: #a9a9c2;
+    }
+    
+    .destino {
+    flex-basis: 300px;
+    margin: 20px;
+    background-color: var(--creme);
+    box-shadow: 2px 2px var(--marrom);
+    }
+    
+    .destino img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    }
+    
+    .destino h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: var(--vermelho);
+    margin: 10px;
+    }
+    
+    .destino p {
+    font-size: 1.1em;
+    color: var(--marrom);
+    margin: 10px;
+    }
+    
+    .destino a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--vermelho);
+    color: var(--creme);
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    border-radius: 5px;
+    }
+    
+    .destino a:hover {
+    background-color: var(--creme)
+    }
+
+nav { position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: rgba(24, 23, 23, 0.5);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
 
 
 
