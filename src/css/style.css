@@ -27,19 +27,22 @@ nav {
   font-family: "Open Sans", sans-serif;
 }
 
-.logo img {
-  height: 40px;
-  width: auto;
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
 }
 
-.menu a,
-.login a {
+.logo i {
+  margin-right: 7px;
+}
+
+.menu a, .login a {
   text-decoration: none;
   color: #fff;
 }
 
-.menu a:hover,
-.login a:hover {
+.menu a:hover, .login a:hover {
   text-decoration: underline;
 }
 
@@ -110,6 +113,7 @@ nav {
 .formulario button:hover {
   scale: 1.1;
   background-color: var(--laranja);
+  cursor: pointer;
 }
 
 /* Define o estilo para a seção de destinos GUS  */
