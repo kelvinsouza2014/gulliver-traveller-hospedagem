@@ -29,12 +29,7 @@ nav {
 
 .logo a {
     text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-}
-
-.logo i {
-  margin-right: 7px;
+    font-size: 30px;
 }
 
 .menu a, .login a {
@@ -113,7 +108,6 @@ nav {
 .formulario button:hover {
   scale: 1.1;
   background-color: var(--laranja);
-  cursor: pointer;
 }
 
 /* Define o estilo para a seção de destinos GUS  */
