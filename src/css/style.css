@@ -188,21 +188,30 @@ nav {
   font-weight: 600;
   font-size: 18px;
   padding: 5px;
- 
 }
 
 .form__caixa {
   display: flex;
+  
 }
 
 .form__nome,
 .form__email {
   margin-right: 15px;
+  position: relative;
 }
+
+.cadastro-icone {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+}
+
 
 .input-cadastro-nome,
 .input-cadastro {
   padding: 5px;
+  padding-left: 25px;
 }
 
 .button {
