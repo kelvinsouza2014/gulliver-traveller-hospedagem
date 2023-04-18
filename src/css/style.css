@@ -1,286 +1,297 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Define as cores da paleta */
 :root {
-    --creme: #D9C0A3;
-    --vermelho: #8C2703;
-    --marrom: #8C4D16;
-    --laranja: #F29D52;
-    --branco: #F2E1D8;
-    }
-
-
-header {
-    background-image: url(../imagens/banners/background-1.jpg);
-    height: 579px;
-    background-repeat: no-repeat;
+  --creme: #d9c0a3;
+  --vermelho: #8c2703;
+  --marrom: #8c4d16;
+  --laranja: #f29d52;
+  --branco: #f2e1d8;
 }
 
-nav { position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 40px;
-    background-color: rgba(24, 23, 23, 0.5);
-    font-family: 'Open Sans', sans-serif;
+header {
+  background-image: url(../imagens/banners/background-1.jpg);
+  height: 579px;
+  background-repeat: no-repeat;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: rgba(24, 23, 23, 0.5);
+  font-family: "Open Sans", sans-serif;
 }
 
 .logo img {
-    height: 40px;
-    width: auto;
+  height: 40px;
+  width: auto;
 }
 
-.menu a, .login a {
-    text-decoration: none;
-    color: #fff;
+.menu a,
+.login a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.menu a:hover, .login a:hover {
-    text-decoration: underline;
+.menu a:hover,
+.login a:hover {
+  text-decoration: underline;
 }
 
 .menu ul {
-    display:flex;
-    margin-top: 10px;
+  display: flex;
+  margin-top: 10px;
 }
 
 .menu li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .login img {
-    height: 25px;
-    width: auto;
-    position: relative;
-    top: 7px;
+  height: 25px;
+  width: auto;
+  position: relative;
+  top: 7px;
 }
 
 .login a {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 
 .caixa_reserva {
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    width: 1321px;
-    height: 300px;
-    background-color: rgba(24, 23, 23, 0.5);
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    padding-right: 50px;
-    margin-top: 200px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  width: 1321px;
+  height: 300px;
+  background-color: rgba(24, 23, 23, 0.5);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding-right: 50px;
+  margin-top: 200px;
 }
 
 .caixa_reserva h2 {
-    text-transform: uppercase;
-    position: relative;
-    top: -35px;
-    left: 84px;
-    font-weight: 900;
-    font-size: 1.5rem;
+  text-transform: uppercase;
+  position: relative;
+  top: -35px;
+  left: 84px;
+  font-weight: 900;
+  font-size: 1.5rem;
 }
 
 .formulario label {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .formulario input {
-    height: 40px;
-    border-radius: 15px;
+  height: 40px;
+  border-radius: 15px;
 }
 
 .formulario button {
-    color: #fff;
-    height: 50px;
-    border-radius: 10px;
-    background-color: var(--laranja);
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 900;
-    font-size: 18px;
-    margin-left: 10px;
+  color: #fff;
+  height: 50px;
+  border-radius: 10px;
+  background-color: var(--laranja);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  margin-left: 10px;
 }
 
 .formulario button:hover {
-    scale: 1.1;
-    background-color: var(--laranja);
+  scale: 1.1;
+  background-color: var(--laranja);
 }
 
 /* Define o estilo para a seção de destinos GUS  */
 .destinos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    /* margin: 50px 0; */
-    background-color: #a9a9c2;
-    }
-    
-    .destino {
-    flex-basis: 300px;
-    margin: 20px;
-    background-color: var(--creme);
-    box-shadow: 2px 2px var(--marrom);
-    }
-    
-    .destino img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-    }
-    
-    .destino h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    color: var(--vermelho);
-    margin: 10px;
-    }
-    
-    .destino p {
-    font-size: 1.1em;
-    color: var(--marrom);
-    margin: 10px;
-    }
-    
-    .destino a {
-    display: block;
-    margin: 10px;
-    padding: 10px;
-    background-color: var(--vermelho);
-    color: var(--creme);
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.1em;
-    border-radius: 5px;
-    }
-    
-    .destino a:hover {
-    background-color: var(--vermelho);
-    }
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin: 50px 0; */
+  background-color: #a9a9c2;
+}
 
-nav { position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 40px;
-    background-color: rgba(24, 23, 23, 0.5);
-    font-family: 'Open Sans', sans-serif;
+.destino {
+  flex-basis: 300px;
+  margin: 20px;
+  background-color: var(--creme);
+  box-shadow: 2px 2px var(--marrom);
+}
+
+.destino img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.destino h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  color: var(--vermelho);
+  margin: 10px;
+}
+
+.destino p {
+  font-size: 1.1em;
+  color: var(--marrom);
+  margin: 10px;
+}
+
+.destino a {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--vermelho);
+  color: var(--creme);
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  border-radius: 5px;
+}
+
+.destino a:hover {
+  background-color: var(--vermelho);
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: rgba(24, 23, 23, 0.5);
+  font-family: "Open Sans", sans-serif;
 }
 
 /* inicio cadastro de email */
 
-.form-email {
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px auto;
-    width: 500px;
-    text-align: left;
-  }
-  
-  .form-titulo {
-    margin: 5px;
-    height: 900;
-    font-weight: 700;
-    font-size: 18px;
-  }
-  
-  .input-cadastro {
-    width: 74%;
-    padding: 5px;
-  }
-  
-  .button {
-    padding: 5px;
-    color: #fff;
-    background-color: var(--vermelho);
-    transition: 1s;
-    border-radius: 10px;
-  }
-  
-  .button:hover {
-    background-color: #fff;
-    color: black;
-  }
-  
-  .descricao-politica {
-    font-size: 12px;
-    padding: 10px 0;
-  }
-  /* fim cadastro de email */
+.cadastro__email {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px auto;
+  width: 600px;
+  padding: 15px;
+}
+
+.form__titulo {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 5px;
  
+}
+
+.form__caixa {
+  display: flex;
+}
+
+.form__nome,
+.form__email {
+  margin-right: 15px;
+}
+
+.input-cadastro-nome,
+.input-cadastro {
+  padding: 5px;
+}
+
+.button {
+  padding: 5px;
+  color: #fff;
+  background-color: var(--vermelho);
+  transition: 1s;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.descricao-politica {
+  font-size: 12px;
+  padding: 10px 0;
+}
+/* fim cadastro de email */
 
 /* inicio style footer */
 footer {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    width: 100%;
-    background-color: var(--marrom);
-    color: #fff;
-    letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  background-color: var(--marrom);
+  color: #fff;
+  letter-spacing: 1px;
 }
 
 .rodape {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 250px;
 }
 
 .rodape__conteudo h1 {
-    text-transform: uppercase;
-    font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .fa-plane-departure {
-   padding: 10px 0 10px;
+  padding: 10px 0 10px;
 }
 
 .rodape__midias__sociais__links:hover {
-    padding: 3%;
-    transition: 0.4s;
-    opacity: 0.8;
+  padding: 3%;
+  transition: 0.4s;
+  opacity: 0.8;
 }
 
 .rodape__midias__sociais i {
-    padding: 10px 0 10px;
-    margin-top: 10px;
-    color: #fff;
-    font-size: 21.5px;
+  padding: 10px 0 10px;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 21.5px;
 }
 
 .rodape__titulo {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    padding-bottom: 5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 5px;
 }
 
 .rodape__lista ul {
-    list-style: none;   
+  list-style: none;
 }
 
 .rodape__lista a {
-    text-decoration: none;
-    color: #fff;
-    /* color: #060D0B; */
+  text-decoration: none;
+  color: #fff;
+  /* color: #060D0B; */
 }
 
 .rodape__lista__item:hover {
-    transition: 0.4s;
-    opacity: 0.8;
+  transition: 0.4s;
+  opacity: 0.8;
 }
 
 .rodape__copyright {
-    padding: 24px 0 50px;
-    background-color: var(--creme);
-    width: 100%;
-    height: 60px;
-    text-align: center;
-    font-weight: 600;
-    letter-spacing: 2px;
+  padding: 24px 0 50px;
+  background-color: var(--creme);
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 /* fim style footer */
