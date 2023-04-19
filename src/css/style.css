@@ -11,6 +11,10 @@
   --branco: #f2e1d8;
 }
 
+body {
+  background-color: #f2c7ae1a;
+}
+
 header {
   background-image: url(../imagens/banners/background-1.jpg);
   height: 580px;
