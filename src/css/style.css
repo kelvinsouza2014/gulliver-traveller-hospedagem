@@ -13,6 +13,7 @@
 
 body {
   background-color: #f2c7ae51;
+  /* text-align: center; */
 }
 
 header {
@@ -178,20 +179,20 @@ nav {
 
 .cadastro__email {
   font-family: "Montserrat", sans-serif;
-  margin: 10px auto;
-  width: 600px;
-  padding: 15px;
+  width: 100%;
+  padding: 60px 0;
 }
 
 .form__titulo {
   font-weight: 600;
-  font-size: 18px;
-  padding: 5px;
+  font-size: 22px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
 .form__caixa {
   display: flex;
-  
+  justify-content: center;
 }
 
 .form__nome,
