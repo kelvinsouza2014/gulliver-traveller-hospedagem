@@ -33,6 +33,10 @@ nav {
     font-size: 20px;
 }
 
+.logo i {
+  margin-right: 7px;
+}
+
 .menu a, .login a {
   text-decoration: none;
   color: #fff;
