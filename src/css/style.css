@@ -132,6 +132,7 @@ nav {
 }
 
 .titulo {
+  font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -160,6 +161,7 @@ nav {
 }
 
 .cards {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
