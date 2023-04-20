@@ -314,6 +314,10 @@ footer {
   list-style: none;
 }
 
+.rodape__lista li {
+  margin: 10px 0;
+}
+
 .rodape__lista a {
   text-decoration: none;
   color: #fff;
@@ -326,6 +330,20 @@ footer {
 }
 
 .rodape__copyright {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding: 20px 0;
+  background-color: rgb(48, 39, 39);
+}
+
+.rodape__copyright {
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+/* .rodape__copyright {
   padding: 24px 0 50px;
   background-color: var(--creme);
   width: 100%;
@@ -333,5 +351,5 @@ footer {
   text-align: center;
   font-weight: 600;
   letter-spacing: 2px;
-}
+} */
 /* fim style footer */
