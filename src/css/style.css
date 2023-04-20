@@ -37,6 +37,7 @@ nav {
     text-transform: uppercase;
     color: #fff;
     font-size: 20px;
+    letter-spacing: 3px;
 }
 
 .logo i {
@@ -250,9 +251,9 @@ footer {
   min-height: 250px;
 }
 
-.rodape__conteudo h1 {
+.rodape__conteudo .referencia-logo {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .fa-plane-departure {
