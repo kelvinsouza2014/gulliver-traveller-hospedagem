@@ -132,11 +132,13 @@ nav {
 }
 
 .titulo {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  font-size: 29px;
   
 }
 
