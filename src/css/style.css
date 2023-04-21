@@ -150,7 +150,7 @@ nav {
 .card {
   
   margin: 61px;
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
   box-shadow: 0 0 10px rgba(212, 10, 10, 0.1);
   background-color: #b1a2a26a;
   border-radius: 10px;
