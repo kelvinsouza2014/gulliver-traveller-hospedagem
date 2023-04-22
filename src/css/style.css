@@ -354,17 +354,6 @@ footer {
   letter-spacing: 2px;
 }
 
-/* .rodape__copyright {
-  padding: 24px 0 50px;
-  background-color: var(--creme);
-  width: 100%;
-  height: 60px;
-  text-align: center;
-  font-weight: 600;
-  letter-spacing: 2px;
-} */
-/* fim style footer */
-
 @media screen and (max-width: 480px) {
   .cadastro-icone {
     left: 138px;
@@ -433,11 +422,11 @@ footer {
   }
 
   .form__nome i, .form__email i {
-display: none;
+    display: none;
   }
 
   .cadastro-icone {
-display: none;
+    display: none;
   }
 
   .rodape {
